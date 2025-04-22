@@ -1,3 +1,4 @@
+package ses1;
 public class logic {
     public static void main(String[] args) {
         // if-Else statemets - for conditional flow

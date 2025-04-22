@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArraysClass",
+      "request": "launch",
+      "mainClass": "ses2.classes.ArraysClass",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
+      "name": "Arrays",
+      "request": "launch",
+      "mainClass": "ses2.classes.Arrays",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
+      "name": "coc",
+      "request": "launch",
+      "mainClass": "ses2.classes.coc",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
+      "name": "InterfacePracticeProblem3",
+      "request": "launch",
+      "mainClass": "InterfacePracticeProblem3",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
       "name": "Attach",
       "request": "attach",
       "hostName": "localhost",
