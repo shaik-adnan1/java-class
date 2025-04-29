@@ -1,3 +1,5 @@
+package ses2.classes;
+
 // parent and child class relationship
 abstract class Animal {
     void makeSound() {

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "recursion",
+      "request": "launch",
+      "mainClass": "ses2.classes.recursion",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
       "name": "Inherit",
       "request": "launch",
       "mainClass": "Inherit",
