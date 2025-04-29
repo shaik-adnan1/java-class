@@ -11,3 +11,9 @@ Problem: Given an integer array, write a recursive method to compute the sum of 
 ```
 Problem: Write a recursive function to check if a string is a palindrome.
 ```
+
+### 3. Fibonacci Sequence using Recursion
+
+```
+Problem: Write a function to return the nth Fibonacci number.
+```
