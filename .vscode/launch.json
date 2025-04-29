@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Inherit",
+      "request": "launch",
+      "mainClass": "Inherit",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
       "name": "ArraysClass",
       "request": "launch",
       "mainClass": "ses2.classes.ArraysClass",
