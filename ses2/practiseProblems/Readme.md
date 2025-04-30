@@ -17,3 +17,7 @@ Problem: Write a recursive function to check if a string is a palindrome.
 ```
 Problem: Write a function to return the nth Fibonacci number.
 ```
+
+- 1. if n = 0 -> return 0;
+- 2. if n = 1 -> return 1;
+- 3. when we exectued the pattern until 'n'
