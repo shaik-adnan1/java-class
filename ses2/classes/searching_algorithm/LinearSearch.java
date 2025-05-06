@@ -8,11 +8,36 @@ public class LinearSearch {
     // Search for a target value inside an array using linear search.
     public static int linearSearch(int[] arr, int target) {
         // Checks through each element one by one
-
+        //
         // 1. you have an array (data stucture).
         // 2. you want to find a specific target element in that array.
         // 3. if the target element is found. we want to return the index at that point.
 
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
                 return i;
