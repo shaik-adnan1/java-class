@@ -4,6 +4,8 @@
 
 ### Linear Search
 
+- Goes throguh each line
+
 ### Binary Search
 
 ### Complexity
