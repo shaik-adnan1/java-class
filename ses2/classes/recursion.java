@@ -79,10 +79,10 @@ public class recursion {
         if (n <= 1)
             return n;
 
-        System.out.println("--------- start recursion -----------");
-        System.out.println("N - 1: " + (n - 1));
-        System.out.println("N - 2: " + (n - 2));
-        System.out.println("--------- end recursion -----------");
+        // System.out.println("--------- start recursion -----------");
+        // // System.out.println("N - 1: " + (n - 1));
+        // // System.out.println("N - 2: " + (n - 2));
+        // System.out.println("--------- end recursion -----------");
 
         int sum = fibonacciRecursion(n - 1) + fibonacciRecursion(n - 2);
         // fibonacciRecursion((5 - 1) = 4) + fibonacciRecursion(5 - 2);
@@ -221,8 +221,42 @@ public class recursion {
         return isPalindromeRecursion(word, left + 1, right - 1);
     }
 
+    // we have an integer "n". we want to print numbers from 1 to n.
+
+    public static void printNumber(int n) {
+        for (int i = n + 1; i <= n; i++) {
+            System.out.println(i);
+        }
+    }
+
+    public static void printNumberRecursion(int n) { // pass 5 as the parameter
+        // Base case. - the case that will stop the method execution.
+        if (n == 0)
+            return;
+
+        // Recursion function.
+        System.out.println(n); // print 5. 1,2,3,4,5
+        printNumberRecursion(n - 1);
+
+    }
+
+    // Sum of Elements in an Array.
+
+    public static int SumArrajahkbdkqy(int[] arr, int index) {
+
+        // Base Case.
+
+        if (index == arr.length) { //
+            return 0;
+        }
+
+        // Sum of the elements.
+
+        int sum = arr[index] + SumArrajahkbdkqy(arr, index + 1); // 7xw
+        return sum;
+    }
+
     public static void main(String[] args) {
-        // int[] arrayNum = { 1, 2, 32, 12, 33, 5, 456 };
         // int ArraySumRecursionRes = ArraySumRecursion(arrayNum, 0);
 
         // printNumbers(5);
@@ -258,10 +292,17 @@ public class recursion {
         // String isPalindromeRes = isPalindrome("D");
         // System.out.println(isPalindromeRes);
 
-        int fibonacciResult = fibonacciRecursion(10);
+        int[] arrayNum = { 1, 2, 32, 12, 33, 5, 456 }; // length is 7. 0-6
 
-        System.out.println("fibonacciResult: " + fibonacciResult);
+        // int fibonacciResult = fibonacciRecursion(10);
 
+        // System.out.println("fibonacciResult: " + fibonacciResult);
+
+        // printNumberRecursion(10);
+
+        // printNumber(10);
+        int SumOfArray = SumArrajahkbdkqy(arrayNum, 0);
+        System.out.println("SumOfTheArray: " + SumOfArray);
     }
 }
 
