@@ -24,6 +24,7 @@
 
 ### Binary Search
 
+```
 1. intialize two pointer:
    a. left pointer.
    - left = 0;
@@ -39,6 +40,7 @@
    - if (arr[mid] > target), move the search to the left half:
    - right = mid - 1;
 3. if the loop ends and we didn't find the target, return -1;
+```
 
 ### Complexity
 
