@@ -24,6 +24,22 @@
 
 ### Binary Search
 
+1. intialize two pointer:
+   a. left pointer.
+   - left = 0;
+     b. right pointer.
+   - right = array.length - 1
+2. Repeat while left <= right
+   a. Compute the middle part.
+   - middle = left + (right - left) / 2;
+     b. Compare the middle element with the target.
+   - if (arr[mid] == target) return mid; (success scenario).
+   - if (arr[mid] < target), move the search to the right half:
+   - left = mid + 1;
+   - if (arr[mid] > target), move the search to the left half:
+   - right = mid - 1;
+3. if the loop ends and we didn't find the target, return -1;
+
 ### Complexity
 
 ### Linear vs Binary
