@@ -96,11 +96,11 @@ public class BinarySearch {
 
     public static void main(String[] args) {
 
-        // int[] Numbers = { 10, 12, 23, 34, 35, 56, 67, 89 }; // 8
-        int[] arr = { 1, 2, 4, 4, 5, 5, 6 };
-        int target = 5;
+        int[] Numbers = { 10, 12, 23, 34, 35, 56, 67, 89 }; // 8
+        // arr = {1, 2, 4, 4, 4, 5, 6}
+        int target = 67;
 
-        int returnedIndex = BinarySearchMet(arr, target);
+        int returnedIndex = BinarySearchMet(Numbers, target);
         System.out.println("Index of the target: " + returnedIndex);
 
     }
