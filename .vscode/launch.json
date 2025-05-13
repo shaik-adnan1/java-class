@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "complexity",
+      "request": "launch",
+      "mainClass": "ses2.classes.complexity.complexity",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
+      "name": "problems",
+      "request": "launch",
+      "mainClass": "ses2.classes.problems",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
       "name": "BinarySearch",
       "request": "launch",
       "mainClass": "ses2.classes.searching_algorithm.BinarySearch",

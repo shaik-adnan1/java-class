@@ -17,7 +17,7 @@ public class LinearSearch {
             if (arr[i] == target) {
                 return i;
             }
-        }
+        } // time ~ input - n -(arr).
 
         return -1;
 
