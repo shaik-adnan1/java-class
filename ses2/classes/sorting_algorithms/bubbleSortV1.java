@@ -22,9 +22,12 @@ public class bubbleSortV1 {
         int n = arr.length;
         boolean swapped;
         int loopCount = 0;
+        int count = 0;
+        int swapCount = 0;
 
         for (int i = 0; i < n - 1; i++) {
             swapped = false;
+            System.out.println("We've looped the array " + count++ + " times.");
 
             System.out.println("1st loop index i: " + i);
             System.out.println("--------");
@@ -32,16 +35,16 @@ public class bubbleSortV1 {
             for (int j = 0; j < n - 1 - i; j++) {
 
                 loopCount++;
-                System.out.println("-------------");
+                System.out.println("------------------------------");
                 System.out.println("Loop Number: " + loopCount);
-                System.out.println("-------------");
+                System.out.println("------------------------------");
 
                 System.out.println("2nd loop index j: " + j);
                 System.out.println("2nd loop index j + 1: " + j + 1);
-                System.out.println("--------");
+                System.out.println("------------------------------");
                 System.out.println("Element at 2nd loop - arr[j]: " + arr[j]);
                 System.out.println("Element at 2nd loop - arr[j + 1]: " + arr[j + 1]);
-                System.out.println("----------");
+                System.out.println("------------------------------");
 
                 if (arr[j] > arr[j + 1]) {
 
@@ -59,13 +62,17 @@ public class bubbleSortV1 {
                     System.out.println("arr[j + 1] after swap: " + arr[j + 1]);
 
                     swapped = true;
-                    System.out.println("-------------");
+                    System.out.println("__________________________________________");
+                    System.out.println("We made " + swapCount++ + " switches.");
                     System.out.println(Arrays.toString(arr));
-                    System.out.println("-------------");
+                    System.out.println("__________________________________________");
 
                 }
             }
             System.out.println("---------- New Loop -------------");
+            System.out.println("__________________________________________");
+            System.out.println("Round of complete swap " + Arrays.toString(arr));
+            System.out.println("__________________________________________");
         }
 
     }
