@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "palinArrList",
+      "request": "launch",
+      "mainClass": "ses2.classes.practise.palinArrList",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
+      "name": "insertionSort",
+      "request": "launch",
+      "mainClass": "ses2.classes.sorting_algorithms.insertionSort",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
+      "name": "selectionSort",
+      "request": "launch",
+      "mainClass": "ses2.classes.sorting_algorithms.selectionSort",
+      "projectName": "java_48aae6c2"
+    },
+    {
+      "type": "java",
       "name": "bubbleSortV2",
       "request": "launch",
       "mainClass": "ses2.classes.sorting_algorithms.bubbleSortV2",

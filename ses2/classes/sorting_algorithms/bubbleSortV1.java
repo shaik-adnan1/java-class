@@ -32,7 +32,7 @@ public class bubbleSortV1 {
             System.out.println("1st loop index i: " + i);
             System.out.println("--------");
 
-            for (int j = 0; j < n - 1 - i; j++) {
+            for (int j = 0; j < n - 1; j++) {
 
                 loopCount++;
                 System.out.println("------------------------------");
